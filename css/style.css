@@ -90,3 +90,9 @@
 .tl2{
     display: flex;
 }
+.section2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+}
