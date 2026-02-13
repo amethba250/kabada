@@ -170,3 +170,21 @@ h3{
     background-color: #a8651f;
     color: white;
 }
+
+
+/* Animation au scroll */
+.info-card {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.info-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation au survol déjà existante pour translateY */
+.info-card:hover {
+    transform: translateY(-5px) scale(1.03);
+}
