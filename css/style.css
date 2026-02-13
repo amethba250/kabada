@@ -16,12 +16,12 @@
 }
 
 .nav-link:hover{
-    color: #0b6623 !important;
+    color: #ffffff !important;
 }
 
 .nav-link.active{
-    color: #0b6623 !important;
-    border-bottom: 3px solid #0b6623;
+    color: #ffffff !important;
+    border-bottom: 3px solid #ffffff;
     padding-bottom: 6px;
 }
 .hero-section{
@@ -91,8 +91,82 @@
     display: flex;
 }
 .section2 h2{
-    text-align: center;
-    text-transform: uppercase;
+    padding-left: 69px;
+    padding-top: 50px;
+    text-transform: uppercase;  
     font-weight: bold;
     color: aliceblue;
+}
+h3{
+    text-transform: uppercase;
+}
+
+
+.contribution-section {
+    background: linear-gradient(
+        to bottom,
+        #ff7e3f 0%,      /* orange ciel */
+        #ff9a3c 25%,     /* orange doré */
+        #ffb347 45%,     /* jaune soleil */
+        #f98b3c 65%,     /* orange chaud */
+        #b85c38 85%,     /* rouge/brun */
+        #5e3b2c 100%     /* brun sombre */
+    );
+    color: white; /* pour rendre le texte lisible sur le fond coloré */
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff; /* blanc pour contraster avec le fond */
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #fce5d0; /* couleur plus douce pour les sous-titres */
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.9); /* légèrement transparent pour voir le dégradé derrière */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h5 {
+    color: #c85c2c; /* une teinte qui s'harmonise avec le fond */
+    margin-bottom: 15px;
+}
+
+.info-card ul {
+    padding-left: 18px;
+}
+
+.info-card li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #4a2e1f; /* lisible sur le fond clair de la carte */
+}
+
+.contribution-btn {
+    background-color: #c07a2c;
+    color: white;
+    padding: 12px 30px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contribution-btn:hover {
+    background-color: #a8651f;
+    color: white;
 }
